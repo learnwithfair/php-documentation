@@ -1,0 +1,25 @@
+<?php
+
+        $date1 = date( 'Y-m-d', strtotime( "yesterday" ) );
+        $date2 = date( 'Y-m-d', strtotime( "-2 days" ) );
+        $date3 = date( 'Y-m-d', strtotime( "-3 days" ) );
+        $date4 = date( 'Y-m-d', strtotime( "-4 days" ) );
+        $date5 = date( 'Y-m-d', strtotime( "-5 days" ) );
+        $date6 = date( 'Y-m-d', strtotime( "-6 days" ) );
+        
+        echo $date1."</br>";
+        echo $date2."</br>";
+        echo $date3."</br>";
+        echo $date4."</br>";
+        echo $date5."</br>";
+        echo $date6."</br>";
+             
+?> 
+
+<?php
+   
+        $from_date = date( 'Y-m-d', strtotime( "-30 days" ) ); 
+        $to_date    = date( 'Y-m-d', strtotime( "-6 days" ) ); 
+        echo $from_date.'</br>';
+        echo $to_date;
+?> 
